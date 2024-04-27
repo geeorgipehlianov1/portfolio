@@ -1,11 +1,11 @@
 import Image from 'next/image';
+import Knowledge from './Knowledge';
+import Summary from './Summary';
 
 export default function Viewport() {
   return (
-    <div className='flex flex-col items-center justify-center gap-10'>
-      <p className='text-center text-xl'>
-        [&apos;FE Developer&apos;, &apos;Tech Enthusiast&apos;]
-      </p>
+    <div className='flex h-screen flex-col items-center gap-10 lg:mt-12'>
+      <Knowledge />
       <Image
         className='rounded-full'
         src='/me.png'
@@ -13,13 +13,7 @@ export default function Viewport() {
         width={200}
         height={200}
       />
-      <p className='w-full max-w-4xl text-center text-base'>
-        Front-End Developer with a passion for building intuitive user
-        interfaces and a drive to lead end-to-end application development,
-        encompassing both front-end and back-end technologies. Eager to leverage
-        expertise in front-end development and leadership skills to excel in an
-        engineering manager role.
-      </p>
+      <Summary />
     </div>
   );
 }
