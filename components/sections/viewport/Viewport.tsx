@@ -4,7 +4,8 @@ export default function Viewport() {
   return (
     <div className='flex flex-col items-center justify-center gap-10'>
       <p className='text-center text-xl'>
-        ['FE Developer', 'Tech Enthusiast', 'Communacation Enthusiast']
+        [&apos;FE Developer&apos;, &apos;Tech Enthusiast&apos;,
+        &apos;Communication Enthusiasts&apos;]
       </p>
       <Image
         className='rounded-full'

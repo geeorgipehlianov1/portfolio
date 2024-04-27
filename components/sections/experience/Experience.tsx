@@ -4,7 +4,7 @@ export default function Experience() {
       <h4 className='mb-5 text-center text-lg'>Work Experience</h4>
       <div
         id='experience'
-        className='flex flex-col items-start justify-center rounded-lg border border-[#D1D5DB] p-10'
+        className='flex flex-col items-start justify-center rounded-lg border border-[#38393A] p-10'
       >
         <div className='mb-4 flex flex-row items-start justify-between gap-2'>
           <h4>Front-end developer | WeiChain</h4>
