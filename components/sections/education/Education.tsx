@@ -12,7 +12,7 @@ export default function Education() {
 
 function SoftwareEducation() {
   return (
-    <div className='flex flex-col items-center rounded-lg border border-[#D1D5DB] p-5'>
+    <div className='flex flex-col items-center rounded-lg border border-[#38393A] p-5'>
       <p>Software University (SoftUni) | 2021 - 2022</p>
     </div>
   );
@@ -20,8 +20,8 @@ function SoftwareEducation() {
 
 function OtherEducation() {
   return (
-    <div className='flex flex-col items-center rounded-lg border border-[#D1D5DB] p-5'>
-      <p>Plovdiv University 'Paisii Hilendarski" | 2017 - 2021</p>
+    <div className='flex flex-col items-center rounded-lg border border-[#38393A] p-5'>
+      <p>Plovdiv University &apos;Paisii Hilendarski&apos; | 2017 - 2021</p>
     </div>
   );
 }
