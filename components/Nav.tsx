@@ -25,7 +25,7 @@ const Nav = () => {
       }}
       animate={hidden ? 'hidden' : 'visible'}
       transition={{ duration: 0.35, ease: 'easeInOut' }}
-      className='mb-5 flex flex-col items-center py-5'
+      className='mb-5 flex flex-col items-center bg-green-700 py-5'
     >
       <div className='flex w-full max-w-6xl justify-between'>
         <div className='flex items-center gap-5'>
