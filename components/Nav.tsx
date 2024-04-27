@@ -10,7 +10,7 @@ const Nav = () => {
   const { scrollY } = useScroll();
 
   useMotionValueEvent(scrollY, 'change', (latest) => {
-    if (latest > 100) {
+    if (latest > 10) {
       setHidden(true);
     } else {
       setHidden(false);
