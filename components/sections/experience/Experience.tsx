@@ -23,6 +23,7 @@ export default function Experience() {
               Communication with other developers, designers, project managers
               and clients
             </li>
+            <li>Working in distributed teams</li>
             <li>Ownership of code, bug fixing</li>
           </u>
         </div>
